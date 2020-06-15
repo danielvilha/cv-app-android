@@ -1,0 +1,269 @@
+[
+    {
+        "role":"Android Developer",
+        "company":"Enterpryze",
+        "address": {
+            "city":"Dublin",
+            "country":"Ireland",
+            "street":""
+        },
+        "date": {
+            "start":"2019-10-01",
+            "end":"2020-06-01"
+        },
+        "description":"Enterpryze provide a scalable, flexible cloud-based business management solution with a suite of complimentary mobile apps to help SMBs optimise their processes and increase cash flow.\n\nResponsible for creating and maintaining the apps for solutions business management and service sales using Kotlin and Java.\nCreated payment methods, a Summary screen, content download limit, list view with header and I went responsible for publishing under test in the Google Play Store and UI/UX development keeping Material Design guidelines.",
+        "description_points":[
+            "API requests using Retrofit and Gson libraries.",
+            "Contributed to beta release on Google Play Store.",
+            "Writing maintainable and reusable code."
+        ],
+        "technical_skills": [
+            "Retrofit",
+            "Kotlin",
+            "Java Android",
+            "Coroutines",
+            "GreenDao",
+            "Butter Knife",
+            "Google Play Services",
+            "Firebase API",
+            "Crashlytics",
+            "Picasso",
+            "Gson Library"
+        ],
+        "key_achievements": [
+            "This is my first employer here in Ireland, and I started to understand how the company works.",
+            "I developed part of Analyze project, I started to maintain and developed the Van Sell project, and other apps whit the other client of payments."
+        ]
+    },
+    {
+        "role":"Exchange Study Year and Volunteering",
+        "company":"",
+        "address": {
+            "city":"Dublin",
+            "country":"Ireland",
+            "street":""
+        },
+        "date": {
+            "start":"2018-10-01",
+            "end":"2019-09-01"
+        },
+        "description":"",
+        "description_points":[
+            "I studied General English at Swan English Language Training.",
+            "Participated on Android technical events (Kotlin Google Codelab, Testing Workshop and Kotlin/Everywhere).",
+            "Volunteered at Dublin Maker – where inventors/creators get the chance to show off their creations, and at Enable Ireland."
+        ],
+        "technical_skills": [
+            ""
+        ],
+        "key_achievements": [
+            ""
+        ]
+    },
+    {
+        "role":"Mobile Developer",
+        "company":"CEABS (contractor by Blend IT Consulting)",
+        "address": {
+            "city":"Curitiba",
+            "country":"Brazil",
+            "street":""
+        },
+        "date": {
+            "start":"2017-09-01",
+            "end":"2018-10-01"
+        },
+        "description":"CEABS is a fleet management and freight security company, part of the Europe Assistance group.\n\nResponsible for two Android applications (Kotlin) throught the entire SDLC, from the estimates, design patterns, and development to publication on the Google Play and Apple Store. Both applications where developed for a vehicle tracking company ('Auto Closing' and 'Inventário').\nResponsible for the iOS application (Swift) maintenance and Apple Store publication. Developed Kotlin and Swift libraries that were used by third parties to build new applications for the company.",
+        "description_points":[
+            "Excellent scoping and estimating skills.",
+            "Developed and delivered an app quickly.",
+            "Commited to the customer experience, design and flows.",
+            "Publishing the builds to Google Play Store and App Store."
+        ],
+        "technical_skills": [
+            "Kotlin",
+            "Java Android",
+            "RESTful",
+            "Gson",
+            "Butter Knife",
+            "Swift",
+            "Unit Tests",
+            "MVC Architecture",
+            "GreenDao",
+            "Firebase API",
+            "Dagger"
+        ],
+        "key_achievements": [
+            "I developed Auto CEABS where is the app for you to take care of your vehicle at all times and the Vehicle Inventory, this is a specific app for the Movida rent cars company.",
+            "Auto CEABS is installed on more than 10,000 devices. This app that brings together strategic anti-theft differentials, communication and security, in addition to be an excellent tool for fleet management."
+        ]
+    },
+    {
+        "role":"Android Developer",
+        "company":"CINQ Technologies",
+        "address": {
+            "city":"Curitiba",
+            "country":"Brazil",
+            "street":""
+        },
+        "date": {
+            "start":"2013-11-01",
+            "end":"2017-09-01"
+        },
+        "description":"CINQ TECHNOLOGIES is an Agile Software Factory/Consulting, certified CMMI Level 3, Great Place to Work® for 8th consecutive year and listed as one of the Fastest Growing SMBs in Brazil 2018 by Deloitte/Exame.\n\nWorked as a consultant for many companies and industries developing and maintaining Android, iOS and Web applications.\nThe main projects I worked on was for the third largest bank in Brazil (Bradesco). I was responsible for deploying applications using Google's APIs (Google Cloud, Google Places, Geo Location, Google Calendar) and services, creating user-specific interfaces and user experiences that were appealing to the device.",
+        "description_points":[
+            "Agile Kanban/Scrum environment.",
+            "Collaborating with development team and other IT vendors to set specifications for new applications, conducting tests, troubleshoot and debugging applications to evaluate existing applications to reprogram, update and add new features.",
+            "Great commitment to customer experience, design and flows."
+        ],
+        "technical_skills": [
+            "MVVM and MVC Architecture",
+            "RxJava",
+            "Scrum",
+            "Swift",
+            ".NET",
+            "GreenDao",
+            "Firebase API",
+            "Life Cycle",
+            "Retrofit",
+            "Gson Library",
+            "Material Design",
+            "Google's APIs",
+            "Butter Knife",
+            "GreenDao",
+            "Dagger"
+        ],
+        "key_achievements": [
+            "I worked on several projects and clients. The last called Scopus IT Solutions, which is an IBM Brazil company."
+        ]
+    },
+    {
+        "role":"Android Developer",
+        "company":"CINQ Technologies",
+        "address": {
+            "city":"Curitiba",
+            "country":"Brazil",
+            "street":""
+        },
+        "date": {
+            "start":"2013-11-01",
+            "end":"2017-09-01"
+        },
+        "description":"CINQ TECHNOLOGIES is an Agile Software Factory/Consulting, certified CMMI Level 3, Great Place to Work® for 8th consecutive year and listed as one of the Fastest Growing SMBs in Brazil 2018 by Deloitte / Exame.\n\nWorked as a consultant for many companies and industries developing and maintaining Android, iOS and Web applications.\nThe main projects I worked on was for the third largest bank in Brazil (Bradesco). I was responsible for deploying applications using Google's APIs (Google Cloud, Google Places, Geo Location, Google Calendar) and services, creating user-specific interfaces and user experiences that were appealing to the device.",
+        "description_points":[
+            "Agile Kanban/Scrum environment.",
+            "Collaborating with development team and other IT vendors to set specifications for new applications, conducting tests, troubleshoot and debugging applications to evaluate existing applications to reprogram, update and add new features.",
+            "Great commitment to customer experience, design and flows."
+        ],
+        "technical_skills": [
+            "MVVM and MVC Architecture",
+            "RxJava",
+            "Scrum",
+            "Swift",
+            ".NET",
+            "GreenDao",
+            "Firebase API",
+            "Life Cycle",
+            "Retrofit",
+            "Gson Library",
+            "Material Design",
+            "Google's APIs",
+            "Butter Knife",
+            "GreenDao",
+            "Dagger"
+        ],
+        "key_achievements": [
+            "I worked on several projects and clients. The last called Scopus IT Solutions, which is an IBM Brazil company."
+        ]
+    },
+    {
+        "role":"Android Developer",
+        "company":"GVT (Contractor by CINQ Technologies)",
+        "address": {
+            "city":"Curitiba",
+            "country":"Brazil",
+            "street":""
+        },
+        "date": {
+            "start":"2013-11-01",
+            "end":"2015-05-01"
+        },
+        "description":"Global Village Telecom (GVT), part of the Vivendi Group, was the best Brazilian broadband and telecommunication company according to INFO Magazine (2009-2013).\n\nDeveloped part of GVT Music app (similar to Spotify / Deezer), was involved in all stages of the software development life-cycle, from requirements, analysis and development to application delivery in an Agile/Scrum environment.",
+        "description_points":[
+            "Strong analytical and debugging skills.",
+            "Processes of assembly and construction of applications."
+        ],
+        "technical_skills": [
+            "Crashlytics",
+            "Scrum",
+            "Jira",
+            "MVC Architecture",
+            "Design Pattern",
+            "Git Tools",
+            "Facebook and Google login",
+            "RESTful API",
+            "JSON",
+            "Media Download",
+            "System Offline"
+        ],
+        "key_achievements": [
+            "With this version of the application, Power Music Club (PMC now is GVT Music) users can create, organize and delete new playlists and access videos, even when they are on the move, using their phone or tablet."
+        ]
+    },
+    {
+        "role":"Android Developer",
+        "company":"Sascar (Contractor)",
+        "address": {
+            "city":"Curitiba",
+            "country":"Brazil",
+            "street":""
+        },
+        "date": {
+            "start":"2013-06-01",
+            "end":"2013-11-01"
+        },
+        "description":"Sascar is the leading Brazilian digital fleet management and freight security company, now part of the Michelin Group.\n\nDeveloped part of the Siggo application, used for tracking cars and motorcycles. Engaged with other developers to conduct code reviews, establish best practices, and development continuous improvement.",
+        "description_points":[
+            "Commitment to customer experience, design and flows.",
+            "Advanced Android libraries, as push notification and geolocation."
+        ],
+        "technical_skills": [
+            "Java Android",
+            "UI/UX",
+            "Material Design",
+            "Retrofit",
+            "XML document",
+            "Google Maps API",
+            "Google Cloud Platform",
+            "SVN",
+            "Mantis"
+        ],
+        "key_achievements": [
+            "I developed an app for external customer who would buy the product."
+        ]
+    },
+    {
+        "role":"Android Developer",
+        "company":"MegaMidia",
+        "address": {
+            "city":"Curitiba",
+            "country":"Brazil",
+            "street":""
+        },
+        "date": {
+            "start":"2011-03-01",
+            "end":"2013-06-01"
+        },
+        "description":"MegaMidia is an agency specialized in trade marketing management, digital marketing, corporate radio, TV and corporate training.\n\nI was the main Android developer, developing apps for corporate radios (with Appcelerator Titanium framework), in a cross-functional team, to deliver the product roadmap in an Agile/Kanban environment.",
+        "description_points":[
+            ""
+        ],
+        "technical_skills": [
+            "JavaScript",
+            "Kanban environment",
+            "API Request"
+        ],
+        "key_achievements": [
+            "Delivered all the apps that the employer had in the contract."
+        ]
+    }
+]

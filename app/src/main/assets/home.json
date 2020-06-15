@@ -1,0 +1,18 @@
+{
+    "address": {
+        "city":"Dublin",
+        "country":"Ireland",
+        "street":"4 Buckingham Street Lower"
+    },
+    "email":"danielvilha@gmail.com",
+    "name":"Daniel Freitas Vilha",
+    "job_title":"Android Developer",
+    "permission":"Stamp 4 (Work Permit)",
+    "phone":"+353 83 4314961",
+    "profile":"Experienced Android Developer (Java and Kotlin, Android 4 to 9), passionate about innovation and technology. Expertise on delivering applications throught all SDLC (from the initial prototype, UX/UI designs, and development to publication in the Play store) using Agile frameworks (Scrum, Kanban) and cross-functional teams. Always working with the best practices as Clean Architecture (MVVM and MVC), Design patterns, material design, TDD and CI/CD.\n\nExperience using Android SDK, standard libraries as Realm, RxJava, RxAndroid, Dagger2 and Retrofit. Familiarity with RESTful APIs and JSON to connect applications to back-end services. Engaging in code reviews, to ensure technical implementations meet functional requirements, unit testing and mentoring other team members in fast-paced environments with varied and rapidly changing goals.",
+    "links": [
+        { "name":"LinkedIn", "link":"https://www.linkedin.com/in/daniel-freitas-vilha/" },
+        { "name":"GitHub", "link":"https://github.com/danielvilha" }
+    ],
+    "image":"https://avatars3.githubusercontent.com/u/1951354?s=460&u=27a070d76aa6193689037815c133a497870f300a&v=4"
+}

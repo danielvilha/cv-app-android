@@ -1,0 +1,94 @@
+[
+    {
+        "name":"Programming Languages",
+        "skills": [
+            "Kotlin",
+            "Java Android",
+            "Swift",
+            ".NET",
+            "JavaScript",
+            "Angular"
+        ]
+    },
+    {
+        "name":"APIs",
+        "skills": [
+            "RESTful APIs",
+            "RxJava"
+        ]
+    },
+    {
+        "name":"Google APIs",
+        "skills": [
+            "Location Services",
+            "Google Maps",
+            "Google Places",
+            "Geo Location",
+            "Google Calendar",
+            "Google Cloud Message (GCM)",
+            "Google Analytics",
+            "Firebase",
+            "Firebase Cloud Messaging",
+            "etc."
+        ]
+    },
+    {
+        "name":"Third party Libraries",
+        "skills": [
+            "Retrofit",
+            "Gson",
+            "Butter Knife",
+            "Dagger",
+            "Picasso",
+            "Coroutines"
+        ]
+    },
+    {
+        "name":"Technical Tools",
+        "skills": [
+            "Git",
+            "GitHub",
+            "SourceTree",
+            "BitBucket",
+            "SVN",
+            "Crashlytics",
+            "JUnit"
+        ]
+    },
+    {
+        "name":"Best Practices and Guidelines",
+        "skills": [
+            "MVC and MVVM for data structure",
+            "Design Pattern",
+            "UI/UX",
+            "Material Design",
+            "TDD (Test-driven development)",
+            "Unit Testing"
+        ]
+    },
+    {
+        "name":"Support Tools",
+        "skills": [
+            "JIRA",
+            "Trello",
+            "SharePoint",
+            "Redmine",
+            "Slack",
+            "Confluence",
+            "MS Teams",
+            "MS Office"
+        ]
+    },
+    {
+        "name":"Agile Frameworks",
+        "skills": [
+            "Scrum",
+            "Kanban",
+            "XP",
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+]

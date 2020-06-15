@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home" >
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.danielvilha.cvappandroid.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_career_history"
+        android:name="com.danielvilha.cvappandroid.ui.career.CareerHistoryFragment"
+        android:label="@string/menu_career_history"
+        tools:layout="@layout/fragment_career_history" />
+    <fragment
+        android:id="@+id/nav_technical_skills"
+        android:name="com.danielvilha.cvappandroid.ui.technical.TechnicalSkillsFragment"
+        android:label="@string/menu_technical_skills"
+        tools:layout="@layout/fragment_technical_skills" />
+    <fragment
+        android:id="@+id/nav_education_training"
+        android:name="com.danielvilha.cvappandroid.ui.education.EducationTrainingFragment"
+        android:label="@string/menu_education_training"
+        tools:layout="@layout/fragment_education_training" />
+</navigation>

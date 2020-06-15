@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CV app Android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_career_history">Career History</string>
+    <string name="menu_education_training">Education &amp; Training</string>
+    <string name="menu_technical_skills">Technical Skills</string>
+    
+    <string name="image_description">Image using in this app</string>
+
+    <string name="details">Details</string>
+    <string name="profile">Profile</string>
+    <string name="links">Links</string>
+
+    <string name="technical_skills">Technical skills</string>
+    <string name="key_achievements">Key Achievements</string>
+
+    <string name="hifen">-</string>
+    <string name="two_points">:</string>
+    
+</resources>
