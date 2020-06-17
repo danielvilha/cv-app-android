@@ -17,7 +17,7 @@
             "Contributed to beta release on Google Play Store.",
             "Writing maintainable and reusable code."
         ],
-        "technical_skills": [
+        "technical_skills":[
             "Retrofit",
             "Kotlin",
             "Java Android",
@@ -30,7 +30,7 @@
             "Picasso",
             "Gson Library"
         ],
-        "key_achievements": [
+        "key_achievements":[
             "This is my first employer here in Ireland, and I started to understand how the company works.",
             "I developed part of Analyze project, I started to maintain and developed the Van Sell project, and other apps whit the other client of payments."
         ]
@@ -53,12 +53,8 @@
             "Participated on Android technical events (Kotlin Google Codelab, Testing Workshop and Kotlin/Everywhere).",
             "Volunteered at Dublin Maker – where inventors/creators get the chance to show off their creations, and at Enable Ireland."
         ],
-        "technical_skills": [
-            ""
-        ],
-        "key_achievements": [
-            ""
-        ]
+        "technical_skills":[],
+        "key_achievements":[]
     },
     {
         "role":"Mobile Developer",
@@ -79,7 +75,7 @@
             "Commited to the customer experience, design and flows.",
             "Publishing the builds to Google Play Store and App Store."
         ],
-        "technical_skills": [
+        "technical_skills":[
             "Kotlin",
             "Java Android",
             "RESTful",
@@ -92,7 +88,7 @@
             "Firebase API",
             "Dagger"
         ],
-        "key_achievements": [
+        "key_achievements":[
             "I developed Auto CEABS where is the app for you to take care of your vehicle at all times and the Vehicle Inventory, this is a specific app for the Movida rent cars company.",
             "Auto CEABS is installed on more than 10,000 devices. This app that brings together strategic anti-theft differentials, communication and security, in addition to be an excellent tool for fleet management."
         ]
@@ -115,7 +111,7 @@
             "Collaborating with development team and other IT vendors to set specifications for new applications, conducting tests, troubleshoot and debugging applications to evaluate existing applications to reprogram, update and add new features.",
             "Great commitment to customer experience, design and flows."
         ],
-        "technical_skills": [
+        "technical_skills":[
             "MVVM and MVC Architecture",
             "RxJava",
             "Scrum",
@@ -132,46 +128,7 @@
             "GreenDao",
             "Dagger"
         ],
-        "key_achievements": [
-            "I worked on several projects and clients. The last called Scopus IT Solutions, which is an IBM Brazil company."
-        ]
-    },
-    {
-        "role":"Android Developer",
-        "company":"CINQ Technologies",
-        "address": {
-            "city":"Curitiba",
-            "country":"Brazil",
-            "street":""
-        },
-        "date": {
-            "start":"2013-11-01",
-            "end":"2017-09-01"
-        },
-        "description":"CINQ TECHNOLOGIES is an Agile Software Factory/Consulting, certified CMMI Level 3, Great Place to Work® for 8th consecutive year and listed as one of the Fastest Growing SMBs in Brazil 2018 by Deloitte / Exame.\n\nWorked as a consultant for many companies and industries developing and maintaining Android, iOS and Web applications.\nThe main projects I worked on was for the third largest bank in Brazil (Bradesco). I was responsible for deploying applications using Google's APIs (Google Cloud, Google Places, Geo Location, Google Calendar) and services, creating user-specific interfaces and user experiences that were appealing to the device.",
-        "description_points":[
-            "Agile Kanban/Scrum environment.",
-            "Collaborating with development team and other IT vendors to set specifications for new applications, conducting tests, troubleshoot and debugging applications to evaluate existing applications to reprogram, update and add new features.",
-            "Great commitment to customer experience, design and flows."
-        ],
-        "technical_skills": [
-            "MVVM and MVC Architecture",
-            "RxJava",
-            "Scrum",
-            "Swift",
-            ".NET",
-            "GreenDao",
-            "Firebase API",
-            "Life Cycle",
-            "Retrofit",
-            "Gson Library",
-            "Material Design",
-            "Google's APIs",
-            "Butter Knife",
-            "GreenDao",
-            "Dagger"
-        ],
-        "key_achievements": [
+        "key_achievements":[
             "I worked on several projects and clients. The last called Scopus IT Solutions, which is an IBM Brazil company."
         ]
     },
@@ -192,7 +149,7 @@
             "Strong analytical and debugging skills.",
             "Processes of assembly and construction of applications."
         ],
-        "technical_skills": [
+        "technical_skills":[
             "Crashlytics",
             "Scrum",
             "Jira",
@@ -205,7 +162,7 @@
             "Media Download",
             "System Offline"
         ],
-        "key_achievements": [
+        "key_achievements":[
             "With this version of the application, Power Music Club (PMC now is GVT Music) users can create, organize and delete new playlists and access videos, even when they are on the move, using their phone or tablet."
         ]
     },
@@ -226,7 +183,7 @@
             "Commitment to customer experience, design and flows.",
             "Advanced Android libraries, as push notification and geolocation."
         ],
-        "technical_skills": [
+        "technical_skills":[
             "Java Android",
             "UI/UX",
             "Material Design",
@@ -237,7 +194,7 @@
             "SVN",
             "Mantis"
         ],
-        "key_achievements": [
+        "key_achievements":[
             "I developed an app for external customer who would buy the product."
         ]
     },
@@ -254,15 +211,13 @@
             "end":"2013-06-01"
         },
         "description":"MegaMidia is an agency specialized in trade marketing management, digital marketing, corporate radio, TV and corporate training.\n\nI was the main Android developer, developing apps for corporate radios (with Appcelerator Titanium framework), in a cross-functional team, to deliver the product roadmap in an Agile/Kanban environment.",
-        "description_points":[
-            ""
-        ],
-        "technical_skills": [
+        "description_points":[],
+        "technical_skills":[
             "JavaScript",
             "Kanban environment",
             "API Request"
         ],
-        "key_achievements": [
+        "key_achievements":[
             "Delivered all the apps that the employer had in the contract."
         ]
     }

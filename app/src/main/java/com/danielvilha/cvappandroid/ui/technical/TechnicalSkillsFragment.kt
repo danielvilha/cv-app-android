@@ -1,6 +1,5 @@
 package com.danielvilha.cvappandroid.ui.technical
 
-import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -20,10 +19,9 @@ class TechnicalSkillsFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_technical_skills, container, false)
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this).get(TechnicalSkillsViewModel::class.java)
-        // TODO: Use the ViewModel
-    }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
+        viewModel = TechnicalSkillsViewModel(requireContext())
+    }
 }

@@ -4,8 +4,8 @@
         "degree":"Technological Degree (Level 6)",
         "course":"Systems Analysis and Development",
         "date":{
-            "start":"01/01/2014",
-            "end":"01/6/2019"
+            "start":"2014-01-01",
+            "end":"2019-06-01"
         }
     },
     {
@@ -13,8 +13,8 @@
         "degree":"",
         "course":"General English",
         "date":{
-            "start":"01/10/2018",
-            "end":"01/4/2019"
+            "start":"2018-10-01",
+            "end":"2019-04-01"
         }
     }
 ]

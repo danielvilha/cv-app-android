@@ -17,11 +17,37 @@ fun getJsonDataFromAsset(context: Context, fileName: String): String? {
     return jsonString
 }
 
-fun getKeyAchievements(keyAchievements: List<String>): String? {
-    var str: String = ""
+fun stringSkills(list: List<String>?): String? {
+    var str = ""
     try {
-        for (key in keyAchievements) {
+        if (!list.isNullOrEmpty()) {
+            for (item in list) {
+                str += if (list.last() == item) {
+                    item
+                } else {
+                    "$item - "
+                }
+            }
+        }
+    } catch (e: IOException) {
 
+        return null
+    }
+
+    return str
+}
+
+fun getString(list: List<String>?): String? {
+    var str = ""
+    try {
+        if (!list.isNullOrEmpty()) {
+            for (item in list) {
+                str += if (list.last() == item) {
+                    "\u2022 $item"
+                } else {
+                    "\u2022 $item\n"
+                }
+            }
         }
     } catch (e: IOException) {
 

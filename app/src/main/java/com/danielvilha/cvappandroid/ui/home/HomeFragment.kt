@@ -10,7 +10,6 @@ import com.danielvilha.cvappandroid.R
 import com.danielvilha.cvappandroid.common.LinksAdapter
 import kotlinx.android.synthetic.main.fragment_home.*
 
-
 class HomeFragment : Fragment() {
 
     companion object {
@@ -27,7 +26,13 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         viewModel = HomeViewModel(requireContext())
-        txv_address.text = viewModel.user.email
+        txv_address.text = String.format(
+            "%s - %s, %s",
+            viewModel.user.address?.street,
+            viewModel.user.address?.city,
+            viewModel.user.address?.country
+        )
+
         txv_phone.text = viewModel.user.phone
         txv_stamp.text = viewModel.user.permission
         txv_email.text = viewModel.user.email

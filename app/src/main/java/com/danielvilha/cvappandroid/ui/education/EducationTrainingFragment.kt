@@ -1,12 +1,14 @@
 package com.danielvilha.cvappandroid.ui.education
 
-import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.danielvilha.cvappandroid.R
+import com.danielvilha.cvappandroid.common.EducationAdapter
+import kotlinx.android.synthetic.main.fragment_education_training.*
 
 class EducationTrainingFragment : Fragment() {
 
@@ -14,14 +16,19 @@ class EducationTrainingFragment : Fragment() {
         fun newInstance() = EducationTrainingFragment()
     }
 
-    private lateinit var trainingViewModel: EducationTrainingViewModel
+    private lateinit var viewModel: EducationTrainingViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_education_training, container, false)
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        trainingViewModel = ViewModelProviders.of(this).get(EducationTrainingViewModel::class.java)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        viewModel = EducationTrainingViewModel(requireContext())
+
+        recycler_education.apply {
+            layoutManager = LinearLayoutManager(activity)
+            adapter = EducationAdapter(viewModel.educationList)
+        }
     }
 }

@@ -61,12 +61,12 @@
                     android:id="@+id/img_phone"
                     android:layout_width="15dp"
                     android:layout_height="15dp"
+                    android:layout_marginEnd="4dp"
                     android:contentDescription="@string/image_description"
                     android:src="@android:drawable/stat_sys_phone_call"
                     android:tint="@android:color/black"
                     app:layout_constraintBottom_toBottomOf="@+id/txv_phone"
                     app:layout_constraintEnd_toStartOf="@+id/txv_phone"
-                    app:layout_constraintStart_toStartOf="@+id/txv_address"
                     app:layout_constraintTop_toTopOf="@+id/txv_phone" />
 
                 <TextView
@@ -78,7 +78,7 @@
                     android:text="@tools:sample/us_phones[0]"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toStartOf="@+id/txv_hifen"
-                    app:layout_constraintStart_toEndOf="@+id/img_phone"
+                    app:layout_constraintStart_toStartOf="@+id/txv_address"
                     app:layout_constraintTop_toBottomOf="@+id/txv_address" />
 
                 <TextView
@@ -110,12 +110,11 @@
                     android:id="@+id/img_email"
                     android:layout_width="15dp"
                     android:layout_height="15dp"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginEnd="4dp"
                     android:contentDescription="@string/image_description"
                     android:src="@drawable/ic_email"
                     app:layout_constraintBottom_toBottomOf="@+id/txv_email"
                     app:layout_constraintEnd_toStartOf="@+id/txv_email"
-                    app:layout_constraintStart_toStartOf="@+id/txv_address"
                     app:layout_constraintTop_toTopOf="@+id/txv_email" />
 
                 <TextView
@@ -127,7 +126,7 @@
                     android:text="lorem@ipsum.dolor"
                     android:textSize="12sp"
                     app:layout_constraintEnd_toEndOf="@+id/txv_address"
-                    app:layout_constraintStart_toEndOf="@+id/img_email"
+                    app:layout_constraintStart_toStartOf="@+id/txv_address"
                     app:layout_constraintTop_toBottomOf="@+id/txv_hifen" />
 
                 <TextView

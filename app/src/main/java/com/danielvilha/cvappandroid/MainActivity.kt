@@ -106,7 +106,7 @@ class MainActivity : AppCompatActivity() {
         mIntent.putExtra(Intent.EXTRA_EMAIL, arrayOf(recipient))
 
         try {
-            startActivity(Intent.createChooser(mIntent, "Choose Email Client..."))
+            startActivity(Intent.createChooser(mIntent, getString(R.string.choose_email_client)))
         }
         catch (e: Exception) {
             Toast.makeText(this, e.message, Toast.LENGTH_LONG).show()
