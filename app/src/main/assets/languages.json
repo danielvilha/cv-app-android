@@ -1,14 +1,17 @@
 [
     {
         "language":"English",
-        "level":"Fluent"
+        "item":"Fluent",
+        "level":"3"
     },
     {
         "language":"Portuguese",
-        "level":"Native"
+        "item":"Native",
+        "level":"4"
     },
     {
         "language":"Spanish",
-        "level":"Elementary"
+        "item":"Elementary",
+        "level":"2"
     }
 ]

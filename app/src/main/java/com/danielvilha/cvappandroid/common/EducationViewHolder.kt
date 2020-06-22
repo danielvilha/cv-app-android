@@ -6,14 +6,14 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.danielvilha.cvappandroid.R
-import com.danielvilha.cvappandroid.net.dtos.EducationTrainig
+import com.danielvilha.cvappandroid.net.dtos.EducationTraining
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 /**
  * Created by danielvilha on 16/06/20
  */
-class EducationViewHelper(inflater: LayoutInflater, parent: ViewGroup): RecyclerView.ViewHolder(inflater.inflate(R.layout.item_education_training, parent, false)) {
+class EducationViewHolder(inflater: LayoutInflater, parent: ViewGroup): RecyclerView.ViewHolder(inflater.inflate(R.layout.item_education_training, parent, false)) {
     private var txv_name: TextView? = null
     private var txv_date: TextView? = null
     private var txv_degree: TextView? = null
@@ -26,7 +26,7 @@ class EducationViewHelper(inflater: LayoutInflater, parent: ViewGroup): Recycler
         txv_course = itemView.findViewById(R.id.txv_course)
     }
 
-    fun bind(education: EducationTrainig) {
+    fun bind(education: EducationTraining) {
         val start = LocalDate.parse(education.date?.start, DateTimeFormatter.ofPattern("yyyy-MM-dd"))
         val end = LocalDate.parse(education.date?.end, DateTimeFormatter.ofPattern("yyyy-MM-dd"))
 

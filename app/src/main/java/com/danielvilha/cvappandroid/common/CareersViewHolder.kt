@@ -7,15 +7,15 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.danielvilha.cvappandroid.R
 import com.danielvilha.cvappandroid.net.dtos.CareerHistory
-import com.danielvilha.cvappandroid.net.getString
-import com.danielvilha.cvappandroid.net.stringSkills
+import com.danielvilha.cvappandroid.net.stringBullet
+import com.danielvilha.cvappandroid.net.stringHyphen
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 /**
  * Created by danielvilha on 15/06/20
  */
-class CareersViewHelper(inflater: LayoutInflater, parent: ViewGroup): RecyclerView.ViewHolder(inflater.inflate(R.layout.item_career_history, parent, false)) {
+class CareersViewHolder(inflater: LayoutInflater, parent: ViewGroup): RecyclerView.ViewHolder(inflater.inflate(R.layout.item_career_history, parent, false)) {
     private var txv_career_name: TextView? = null
     private var txv_date: TextView? = null
     private var txv_description: TextView? = null
@@ -65,21 +65,21 @@ class CareersViewHelper(inflater: LayoutInflater, parent: ViewGroup): RecyclerVi
         if (career.description_points.isNullOrEmpty()) {
             txv_description_points?.visibility = View.GONE
         } else {
-            txv_description_points?.text = getString(career.description_points)
+            txv_description_points?.text = stringBullet(career.description_points)
         }
 
         if (career.technical_skills.isNullOrEmpty()) {
             txv_technical_skills_text?.visibility = View.GONE
             txv_technical_skills?.visibility = View.GONE
         } else {
-            txv_technical_skills?.text = stringSkills(career.technical_skills)
+            txv_technical_skills?.text = stringHyphen(career.technical_skills)
         }
 
         if (career.key_achievements.isNullOrEmpty()) {
             txv_key_achievements_text?.visibility = View.GONE
             txv_key_achievements?.visibility = View.GONE
         } else {
-            txv_key_achievements?.text = getString(career.key_achievements)
+            txv_key_achievements?.text = stringBullet(career.key_achievements)
         }
     }
 }

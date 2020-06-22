@@ -15,12 +15,13 @@
     <string name="details">Details</string>
     <string name="profile">Profile</string>
     <string name="links">Links</string>
+    <string name="languages">Languages</string>
 
     <string name="choose_email_client">Choose Email Client</string>
     <string name="technical_skills">Technical skills</string>
     <string name="key_achievements">Key Achievements</string>
 
-    <string name="hifen">-</string>
+    <string name="hyphen">-</string>
     <string name="two_points">:</string>
-    
+
 </resources>

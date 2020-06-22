@@ -17,7 +17,7 @@ fun getJsonDataFromAsset(context: Context, fileName: String): String? {
     return jsonString
 }
 
-fun stringSkills(list: List<String>?): String? {
+fun stringHyphen(list: List<String>?): String? {
     var str = ""
     try {
         if (!list.isNullOrEmpty()) {
@@ -37,7 +37,7 @@ fun stringSkills(list: List<String>?): String? {
     return str
 }
 
-fun getString(list: List<String>?): String? {
+fun stringBullet(list: List<String>?): String? {
     var str = ""
     try {
         if (!list.isNullOrEmpty()) {

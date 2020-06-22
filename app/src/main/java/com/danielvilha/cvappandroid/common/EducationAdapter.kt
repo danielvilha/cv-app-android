@@ -3,20 +3,20 @@ package com.danielvilha.cvappandroid.common
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.danielvilha.cvappandroid.net.dtos.EducationTrainig
+import com.danielvilha.cvappandroid.net.dtos.EducationTraining
 
 /**
  * Created by danielvilha on 16/06/20
  */
-class EducationAdapter(private val list: List<EducationTrainig>): RecyclerView.Adapter<EducationViewHelper>() {
+class EducationAdapter(private val list: List<EducationTraining>): RecyclerView.Adapter<EducationViewHolder>() {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EducationViewHelper {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EducationViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        return EducationViewHelper(inflater, parent)
+        return EducationViewHolder(inflater, parent)
     }
 
-    override fun onBindViewHolder(holder: EducationViewHelper, position: Int) {
-        val education: EducationTrainig = list[position]
+    override fun onBindViewHolder(holder: EducationViewHolder, position: Int) {
+        val education: EducationTraining = list[position]
         holder.bind(education)
     }
 

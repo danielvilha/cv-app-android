@@ -88,7 +88,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginEnd="8dp"
                     android:fontFamily="@font/cairo_light"
-                    android:text="@string/hifen"
+                    android:text="@string/hyphen"
                     app:layout_constraintBottom_toBottomOf="@+id/txv_phone"
                     app:layout_constraintEnd_toStartOf="@+id/txv_stamp"
                     app:layout_constraintStart_toEndOf="@+id/txv_phone"

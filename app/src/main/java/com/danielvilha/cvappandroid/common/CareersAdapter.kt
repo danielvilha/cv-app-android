@@ -8,14 +8,14 @@ import com.danielvilha.cvappandroid.net.dtos.CareerHistory
 /**
  * Created by danielvilha on 15/06/20
  */
-class CareersAdapter(private val list: List<CareerHistory>): RecyclerView.Adapter<CareersViewHelper>() {
+class CareersAdapter(private val list: List<CareerHistory>): RecyclerView.Adapter<CareersViewHolder>() {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CareersViewHelper {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CareersViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        return CareersViewHelper(inflater, parent)
+        return CareersViewHolder(inflater, parent)
     }
 
-    override fun onBindViewHolder(holder: CareersViewHelper, position: Int) {
+    override fun onBindViewHolder(holder: CareersViewHolder, position: Int) {
         val career: CareerHistory = list[position]
         holder.bind(career)
     }
