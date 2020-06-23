@@ -9,7 +9,7 @@ This is an app to view the CV. (I need to improve this overview)
 ### Screenshots
 Menu | Home Screen | Career History | Education & Training | Technical Skills & Language
 --- | --- | --- | --- | ---
-![Menu](/images/Screenshot_1592909869.png) | ![Stillorgan](/images/Screenshot_1592909874.png) | ![Career History](images/Screenshot_1592909884.png) | ![Education & Training](images/Screenshot_1592909895.png) | ![Technical Skills & Language](images/Screenshot_1592909955.png)
+![Menu](images/Screenshot_1592909869.png) | ![Home Screen](images/Screenshot_1592909874.png) | ![Career History](images/Screenshot_1592909884.png) | ![Education & Training](images/Screenshot_1592909895.png) | ![Technical Skills & Language](images/Screenshot_1592909955.png)
 
 
 ### More Features to implement
