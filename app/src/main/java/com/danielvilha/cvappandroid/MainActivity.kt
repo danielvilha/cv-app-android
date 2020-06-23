@@ -70,7 +70,6 @@ class MainActivity : AppCompatActivity() {
         Picasso.get()
             .load(user.image)
             .into(img_photo)
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -88,6 +87,7 @@ class MainActivity : AppCompatActivity() {
                 .load(user.image)
                 .into(img_photo_avatar)
         }
+
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
 
