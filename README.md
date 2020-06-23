@@ -1,19 +1,23 @@
 # CV App Android
 This is an app I'm developing for showing my CV.
 
+
 ### Overview
 This is an app to view the CV. (I need to improve this overview)
+
 
 ### Screenshots
 Menu | Home Screen | Career History | Education & Training | Technical Skills & Language
 --- | --- | --- | --- | ---
 ![Menu](/images/Screenshot_1592909869.png) | ![Stillorgan](/images/Screenshot_1592909874.png) | ![Career History](images/Screenshot_1592909884.png) | ![Education & Training](images/Screenshot_1592909895.png) | ![Technical Skills & Language](images/Screenshot_1592909955.png)
 
+
 ### More Features to implement
 - [ ] I need to implement the service, now I put a JSON file in the app.
 - [ ] When I finish implementing the service, I want to put some tests.
 - [ ] I want to improve the viewing of the app.
 - [ ] I need to change the floating button, because I didn't like how it looks.
+
 
 ## Licence
 Copyright 2020 Daniel Freitas Vilha
